@@ -64,7 +64,7 @@ export default function Home() {
           {/* モバイルは4:3、md以上は16:9 */}
           <div className="aspect-[4/3] md:aspect-[16/9]">
             <img
-              src="/images/nakao.jpg"
+              src="/images/#"
               alt="候補者写真"
               className="h-full w-full object-cover object-center"
             />
