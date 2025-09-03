@@ -1,6 +1,4 @@
 {
-  "name": "nakao-kazuyuki",
-  "alias": ["nakao-kazuyuki.vercel.app"],
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
   "framework": "nextjs"
