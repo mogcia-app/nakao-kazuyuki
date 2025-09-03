@@ -160,8 +160,8 @@ export default function Home() {
         {/* お問い合わせセクション */}
         <section id="contact" className="py-20 bg-gradient-to-br from-yellow-500 to-yellow-500">
           <div className="max-w-4xl mx-auto px-6 text-center">
-            <h2 className="text-5xl font-black text-white mb-10">お問い合わせ</h2>
-            <p className="text-2xl text-white mb-12 font-medium">ご意見・ご質問がございましたら、お気軽にお声がけください。</p>
+            <h2 className="text-3xl md:text-5xl font-black text-white mb-10">お問い合わせ</h2>
+            <p className="text-xl md:text-[30px] text-white mb-12 font-medium">ご意見・ご質問がございましたら、お気軽にお声がけください。</p>
             
             <div className="grid md:grid-cols-2 gap-10">
               <div className="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">

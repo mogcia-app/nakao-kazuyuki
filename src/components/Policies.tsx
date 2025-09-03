@@ -103,7 +103,7 @@ export default function Policies() {
             <div className="aspect-video rounded-xl overflow-hidden">
               <Image
                 src="/images/nakao04.jpg"
-                alt="中尾市長の政策ビジョン"
+                alt="中尾和幸の政策ビジョン"
                 width={600}
                 height={400}
                 className="w-full h-full object-cover"
