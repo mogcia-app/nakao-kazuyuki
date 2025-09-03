@@ -10,73 +10,47 @@ export default function Home() {
       
       <main className="min-h-screen bg-white pt-0">
        
-      {/* ヒーローセクション */}
-{/* ヒーローセクション */}
-<section className="relative overflow-hidden bg-gradient-to-b from-white to-gray-50">
-  {/* 控えめな背景グラデ */}
-  <div
-    aria-hidden
-    className="pointer-events-none absolute inset-0 bg-[radial-gradient(40rem_40rem_at_120%_-10%,rgba(255,223,99,0.18),transparent),radial-gradient(20rem_20rem_at_-10%_110%,rgba(255,223,99,0.12),transparent)]"
-  />
+    
+   {/* ヒーローセクション */}
+   <section className="relative overflow-hidden h-[70vh] md:h-[80vh] flex items-center mt-16">
+  {/* 背景画像 */}
+  <div className="absolute inset-0">
+    <picture>
+      {/* スマホ用画像 */}
+      <source media="(max-width: 768px)" srcSet="/images/nakao5.jpg" />
+      {/* PC用画像 */}
+      <img
+        src="/images/nakao33.jpg"
+        alt="候補者写真"
+        className="h-full w-full object-cover object-top"
+      />
+    </picture>
+    {/* オーバーレイ */}
+  </div>
 
-  <div className="relative mx-auto max-w-7xl px-6 py-16 md:py-24 mt-4">
-    <div className="grid items-center gap-8 md:gap-10 md:grid-cols-12">
-      {/* 左：テキスト（モバイル先・PC左） */}
-      <div className="order-1 md:order-1 md:col-span-6">
-        {/* サブキャップ */}
-        <div className="inline-flex items-center gap-3 rounded-full border-2 border-yellow-400 bg-white/80 px-4 py-2 text-sm font-bold text-yellow-800 shadow-sm backdrop-blur">
-          <span className="inline-block h-5 w-5 rounded-full bg-yellow-400 shadow-md" />
-          地域の未来のために
-        </div>
-
-        {/* 氏名 */}
-        <h1 className="mt-6 text-5xl font-black leading-[1.05] tracking-tight text-gray-900 md:text-6xl lg:text-7xl">
-          中尾 和幸
-        </h1>
-        <p className="mt-2 text-2xl font-medium text-gray-700">なかお　かずゆき</p>
-
-        {/* キャッチコピー（和／幸だけ赤） */}
-        <p className="mt-6 max-w-2xl text-xl sm:text-2xl md:text-[30px] leading-relaxed text-black">
-          まちに <span className="text-red-600 font-bold text-2xl md:text-[40px]">和</span> を　
-          人に <span className="text-red-600 font-bold text-2xl md:text-[40px]">幸</span> を
-        </p>
-
-        {/* CTA */}
-        <div className="mt-8 md:mt-10 flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4">
-          <a
-            href="#policies"
-            className="inline-flex justify-center rounded-md bg-yellow-500 px-6 py-3 text-white font-semibold shadow-lg transition hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2"
-          >
-            政策を見る
-          </a>
-          <a
-            href="#schedule"
-            className="inline-flex justify-center rounded-md border border-gray-300 bg-white px-6 py-3 text-gray-700 font-semibold transition hover:bg-gray-50"
-          >
-            日程・活動を見る
-          </a>
-        </div>
+  {/* コンテンツ */}
+  <div className="relative mx-auto max-w-7xl px-6 py-16 md:py-24 w-full">
+    <div className="max-w-2xl">
+      {/* サブキャップ */}
+      <div className="inline-flex items-center gap-2 rounded-full border-2 border-yellow-400 bg-white/90 px-3 py-1.5 text-xs font-bold text-yellow-800 shadow-sm backdrop-blur md:gap-3 md:px-4 md:py-2 md:text-sm">
+        <span className="inline-block h-4 w-4 rounded-full bg-yellow-400 shadow-md md:h-5 md:w-5" />
+        想いを形に　〜市民と共に〜
       </div>
 
-      {/* 右：写真（モバイル後・PC右） */}
-      <div className="order-2 md:order-2 md:col-span-6 flex justify-center md:justify-end mt-6 md:mt-0">
-        <div className="relative w-full max-w-[720px] overflow-hidden border border-gray-200 bg-gray-100">
-          {/* モバイルは4:3、md以上は16:9 */}
-          <div className="aspect-[4/3] md:aspect-[16/9]">
-            <img
-              src="/images/#"
-              alt="候補者写真"
-              className="h-full w-full object-cover object-center"
-            />
-          </div>
-          {/* 薄い黒オーバーレイ */}
-          <div className="pointer-events-none absolute inset-0 bg-black/10" />
-          {/* 右上バッジ */}
-          <div className="absolute right-2 top-2 md:right-3 md:top-3 rounded-full bg-yellow-500/95 px-3 py-1 md:px-4 md:py-1.5 text-xs md:text-sm font-bold text-white shadow">
-            OFFICIAL
-          </div>
-        </div>
-      </div>
+      {/* 氏名 */}
+      <h1 className="mt-6 text-4xl font-black leading-[1.05] tracking-tight text-black md:text-7xl lg:text-8xl">
+        なかお 和幸
+      </h1>
+      <p className="mt-2 text-xl font-medium text-black md:text-3xl">NAKAO　KAZUYUKI</p>
+
+      {/* キャッチコピー（和／幸だけ赤） */}
+      <p className="mt-6 max-w-2xl text-lg sm:text-xl md:text-[36px] leading-relaxed text-black">
+        まちに <span className="text-red-600 font-bold text-xl md:text-[48px]">和</span> を
+        人に <span className="text-red-600 font-bold text-xl md:text-[48px]">幸</span> を
+      </p>
+
+      {/* CTA */}
+      
     </div>
   </div>
 </section>
@@ -139,33 +113,42 @@ export default function Home() {
   {[
     { date: "1974年9月", text: "川副町大詫間に生まれる" },
     { date: "1990年3月", text: "川副中学校　卒業" },
-    { date: "1993年3月", text: "佐賀東高等学校　卒業（甲子園出場）" },
+    { date: "1993年3月", text: "佐賀東高等学校　卒業", detail: "（第74回全国高校野球大会　1番中堅手で出場）" },
     { date: "1993年4月", text: "JAさが（旧佐賀経済連）　入社" },
     { date: "2017年3月", text: "株式会社JAさがフーズ　退職" },
-    { date: "2017年4月", text: "養鶏業を開始" },
+    { date: "2017年4月", text: "養鶏業（ブロイラー）を開業" },
    
   ].map((item, idx) => (
     <div key={idx} className="relative flex items-start">
       {/* 丸 */}
       <div className="absolute -left-3 top-2 w-4 h-4 bg-yellow-500 rounded-full shadow"></div>
       {/* テキスト */}
-      <p className="ml-6 text-gray-700 text-lg leading-relaxed">
+      <div className="ml-6 text-gray-700 text-lg leading-relaxed">
         <span className="font-semibold text-gray-900">{item.date}</span>
         <span className="ml-2">{item.text}</span>
-      </p>
+        {item.detail && (
+          <div className="ml-2 mt-1 text-gray-600 text-base">
+            {item.detail}
+          </div>
+        )}
+      </div>
     </div>
   ))}
 </div>
 
       {/* 右：画像 */}
       <div className="flex justify-center self-start">
-  <div className="relative w-full max-w-xs aspect-square overflow-hidden  border border-gray-200 bg-gray-100 shadow-xl">
+  <div className="relative w-full max-w-xs aspect-square overflow-hidden">
     <img
-      src="/images/candidate.jpg"
+      src="/images/nakao54.jpg"
       alt="候補者プロフィール写真"
       className="h-full w-full object-cover"
     />
-    <div className="absolute inset-0 bg-black/5" />
+    <div className="absolute inset-0 " />
+    {/* 右下に名前 */}
+    <div className="absolute bottom-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-2 rounded-lg shadow-lg">
+      <p className="text-lg font-bold text-gray-800">なかお 和幸</p>
+    </div>
   </div>
 </div>
     </div>
@@ -182,13 +165,27 @@ export default function Home() {
             
             <div className="grid md:grid-cols-2 gap-10">
               <div className="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-                <h3 className="text-2xl font-bold text-gray-800 mb-6">選挙事務所</h3>
-                <p className="text-gray-600 text-lg leading-relaxed">〒000-0000<br />○○県○○市○○町○○-○○</p>
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="w-10 h-10 bg-yellow-100 rounded-lg flex items-center justify-center">
+                    <svg className="w-6 h-6 text-yellow-600" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/>
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-800">選挙事務所</h3>
+                </div>
+                <p className="text-gray-600 text-lg leading-relaxed">〒840-2213<br />佐賀県佐賀市川副町鹿江670-8</p>
               </div>
               
               <div className="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-                <h3 className="text-2xl font-bold text-gray-800 mb-6">連絡先</h3>
-                <p className="text-gray-600 text-lg leading-relaxed">TEL: 000-0000-0000<br />Email: info@nakao-kazuyuki.jp</p>
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="w-10 h-10 bg-yellow-100 rounded-lg flex items-center justify-center">
+                    <svg className="w-6 h-6 text-yellow-600" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-800">連絡先</h3>
+                </div>
+                <p className="text-gray-600 text-lg leading-relaxed">TEL: 0952-20-8313<br />FAX: 0952-20-8315<br />Email: info@nakao-kazuyuki.jp</p>
               </div>
             </div>
           </div>

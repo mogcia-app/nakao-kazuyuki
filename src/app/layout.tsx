@@ -5,9 +5,45 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: '中尾 和幸 | 選挙活動ホームページ',
-  description: '中尾和幸の選挙活動ホームページです。政策や活動内容をご紹介します。',
+  title: '中尾 和幸 | ホームページ',
+  description: '中尾和幸のホームページです。政策や活動内容をご紹介します。',
   keywords: '中尾和幸, 選挙, 政治家, 地域活性化, 福祉, 環境',
+  authors: [{ name: '中尾 和幸' }],
+  creator: '中尾 和幸',
+  publisher: '中尾 和幸',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL('https://nakao-kazuyuki.jp'), // 実際のドメインに変更
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: '中尾 和幸 | 選挙活動ホームページ',
+    description: '中尾和幸の選挙活動ホームページです。政策や活動内容をご紹介します。',
+    url: 'https://nakao-kazuyuki.jp', // 実際のドメインに変更
+    siteName: '中尾 和幸 公式サイト',
+    locale: 'ja_JP',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '中尾 和幸 | 選挙活動ホームページ',
+    description: '中尾和幸の選挙活動ホームページです。政策や活動内容をご紹介します。',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 }
 
 export default function RootLayout({

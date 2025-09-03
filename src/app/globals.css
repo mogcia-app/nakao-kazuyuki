@@ -26,6 +26,34 @@ body {
   line-height: 1.6;
 }
 
+/* レスポンシブ文字サイズ調整 */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px; /* ベースフォントサイズを小さく */
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 13px; /* さらに小さく */
+  }
+}
+
+/* 特定要素のモバイル調整（必要に応じて） */
+@media (max-width: 768px) {
+  h1, h2, h3 {
+    line-height: 1.3; /* 見出しの行間を詰める */
+  }
+  
+  .text-lg {
+    font-size: 1rem; /* text-lgを小さく */
+  }
+  
+  .text-xl {
+    font-size: 1.125rem; /* text-xlを小さく */
+  }
+}
+
 a {
   color: inherit;
   text-decoration: none;

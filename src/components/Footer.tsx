@@ -28,24 +28,16 @@ export default function Footer() {
               <ul className="space-y-3">
                 <li>
                   <a href="#policy" className="text-gray-300 hover:text-yellow-400 transition-colors duration-300">
-                    政策・ビジョン
+                    5つのチャレンジ
                   </a>
                 </li>
+               
                 <li>
-                  <a href="#experience" className="text-gray-300 hover:text-yellow-400 transition-colors duration-300">
-                    経歴・実績
-                  </a>
-                </li>
-                <li>
-                  <a href="#contact" className="text-gray-300 hover:text-yellow-400 transition-colors duration-300">
+                  <a href="/contact" className="text-gray-300 hover:text-yellow-400 transition-colors duration-300">
                     お問い合わせ
                   </a>
                 </li>
-                <li>
-                  <a href="#support" className="text-gray-300 hover:text-yellow-400 transition-colors duration-300">
-                    応援する
-                  </a>
-                </li>
+               
               </ul>
             </div>
 
@@ -53,11 +45,14 @@ export default function Footer() {
             <div>
               <h4 className="text-lg font-bold mb-6 text-yellow-400">お問い合わせ</h4>
               <div className="space-y-3 text-gray-300">
-                <p>〒000-0000</p>
-                <p>○○県○○市○○町</p>
-                <p>○○-○○</p>
+                <p>〒840-2213</p>
+                <p>佐賀県佐賀市川副町鹿江670-8</p>
+                
                 <p className="mt-4">
-                  <span className="text-yellow-400">TEL:</span> 000-0000-0000
+                  <span className="text-yellow-400">TEL:</span> 0952-20-8313
+                </p>
+                <p className="mt-4">
+                  <span className="text-yellow-400">FAX:</span> 0952-20-8315
                 </p>
                 <p>
                   <span className="text-yellow-400">Email:</span><br />
@@ -75,18 +70,18 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-center md:text-left">
               <p className="text-gray-400">
-                © 2024 Nakao Kazuyuki. All rights reserved.
+                © 2025 Nakao Kazuyuki. All rights reserved.
               </p>
             </div>
             <div className="flex space-x-6 text-sm text-gray-400">
-              <a href="#" className="hover:text-yellow-400 transition-colors duration-300">
+              <a href="/privacy" className="hover:text-yellow-400 transition-colors duration-300">
                 プライバシーポリシー
               </a>
-              <a href="#" className="hover:text-yellow-400 transition-colors duration-300">
+              <a href="/terms" className="hover:text-yellow-400 transition-colors duration-300">
                 利用規約
               </a>
-              <a href="#" className="hover:text-yellow-400 transition-colors duration-300">
-                サイトマップ
+              <a href="/contact" className="hover:text-yellow-400 transition-colors duration-300">
+                お問い合わせ
               </a>
             </div>
           </div>

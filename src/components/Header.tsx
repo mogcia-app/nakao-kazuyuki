@@ -13,10 +13,10 @@ export default function Header() {
           {/* 左：ロゴ */}
           <a href="/" className="flex items-center gap-3">
             <div className="grid h-10 w-10 place-items-center rounded-full bg-gradient-to-br from-yellow-400 to-yellow-500">
-              <span className="text-white text-base font-bold leading-none">中</span>
+              <span className="text-white text-base font-bold leading-none">な</span>
             </div>
             <div className="leading-tight">
-              <p className="text-[17px] font-bold text-gray-900">中尾 和幸</p>
+              <p className="text-[17px] font-bold text-gray-900">なかお 和幸</p>
               <p className="text-xs text-gray-600 tracking-wide">Nakao Kazuyuki</p>
             </div>
           </a>
@@ -29,7 +29,7 @@ export default function Header() {
 
               {/* CTA */}
 <a
-  href="#contact"
+  href="/contact"
   className="rounded-none bg-yellow-500 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-yellow-600 hover:shadow-md"
 >
   お問い合わせ
@@ -40,11 +40,11 @@ export default function Header() {
 
            {/* SNS */}
 <a
-  href="https://www.instagram.com/aicon_official" // ← 公式アカウントURL
+  href="https://www.instagram.com/nakao_saga2025?igsh=MW8xcnpiMG96azlrMQ%3D%3D&utm_source=qr" // ← 公式アカウントURL
   target="_blank"
   rel="noopener noreferrer"
   aria-label="公式Instagram"
-  className="flex items-center gap-2 transition-colors text-gray-900 hover:text-pink-500"
+  className="flex items-center gap-2 transition-colors text-gray-900 hover:text-orange-500"
 >
   <span className="text-sm font-bold">公式Instagram</span>
   <FaInstagram size={22} className="text-orange-500" />
@@ -110,7 +110,7 @@ export default function Header() {
             {/* CTA */}
             <div className="mt-2 px-1">
             <a
-  href="#contact"
+  href="/contact"
   className="rounded-none bg-yellow-500 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-yellow-600 hover:shadow-md block text-center"
 >
   お問い合わせ
