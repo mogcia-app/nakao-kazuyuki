@@ -70,14 +70,15 @@ export default function Home() {
     {/* 本文は見出しの flex 外に置く */}
     <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
       <p>
-       佐賀市に生まれ育ち50年が経ちました。山間にある職場（養鶏農場）から見える佐賀平野の田んぼや穏やかな波が広がる
-       有明海を見ながら数年前に開催させた研修会での講師の先生の言葉が脳裏から離れず考えさせられていました。
+       佐賀市に生まれ育ち50年が経ちました。<br />
+       山間にある職場（養鶏農場）から見える佐賀平野の田んぼや穏やかな波が広がる
+       有明海を見ながら数年前に開催させた研修会での講師の先生の言葉が脳裏から離れず考えさせられていました。<br />
        「日本人が初めて教わるのはあいうえおだからあいうえおの精神を忘れてはいけない」
       </p>
       <p className="text-2xl md:text-3xl font-bold tracking-wide text-gray-800 text-center">
   あ（<span className="text-red-600">愛</span>）　
   い（<span className="text-red-600">命</span>）　
-  う（<span className="text-red-600">運</span>）　
+  う（<span className="text-red-600">運</span>）<br />
   え（<span className="text-red-600">縁</span>）　
   お（<span className="text-red-600">恩</span>）
 </p>

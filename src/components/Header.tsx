@@ -96,11 +96,11 @@ export default function Header() {
             {/* SNS行 */}
             <div className="mt-2 flex items-center gap-4 px-1 py-2">
               <a
-                href="https://www.instagram.com/あなたのアカウント"
+                href="https://www.instagram.com/nakao_saga2025?igsh=MW8xcnpiMG96azlrMQ%3D%3D&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
-                className="inline-flex items-center gap-2 text-gray-600 hover:text-pink-500"
+                className="inline-flex items-center gap-2 text-gray-600 hover:text-orange-500"
               >
                 <FaInstagram size={22} />
                 <span className="text-sm">Instagram</span>

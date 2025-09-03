@@ -88,12 +88,12 @@ export default function Policies() {
         <div className="grid gap-10 md:grid-cols-2 md:items-center mb-16">
           {/* 左側：テキスト */}
           <div className="text-left">
-          <p className="text-[20px] text-gray-600 leading-relaxed mb-4">
+          <p className="text-lg md:text-[20px] text-gray-600 leading-relaxed mb-4">
               市民と共に想いをかたちにする
             </p>
-                                        <h2 className="text-[40px] font-black text-gray-900 md:text-5xl mb-4">
+                                        <h2 className="text-3xl md:text-[40px] lg:text-5xl font-black text-gray-900 mb-4">
               なかお和幸が目指す<br />
-              <span className="text-yellow-400 text-[80px]">５</span>つのチャレンジ
+              <span className="text-yellow-400 text-5xl md:text-[80px]">５</span>つのチャレンジ
               </h2>
            
           </div>
