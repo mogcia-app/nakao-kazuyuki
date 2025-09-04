@@ -54,10 +54,7 @@ export default function Footer() {
                 <p className="mt-4">
                   <span className="text-yellow-400">FAX:</span> 0952-20-8315
                 </p>
-                <p>
-                  <span className="text-yellow-400">Email:</span><br />
-                  info@nakao-kazuyuki.jp
-                </p>
+               
               </div>
             </div>
           </div>

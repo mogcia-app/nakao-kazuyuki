@@ -105,7 +105,7 @@ export default function PrivacyPage() {
                   <p className="text-gray-700 leading-relaxed">
                     <strong>住所：</strong>〒840-2213 佐賀県佐賀市川副町鹿江670-8<br />
                     <strong>電話：</strong>0952-20-8313<br />
-                    <strong>メール：</strong>info@nakao-kazuyuki.jp
+                 
                   </p>
                 </div>
 

@@ -185,7 +185,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-2xl font-bold text-gray-800">連絡先</h3>
                 </div>
-                <p className="text-gray-600 text-lg leading-relaxed">TEL: 0952-20-8313<br />FAX: 0952-20-8315<br />Email: info@nakao-kazuyuki.jp</p>
+                <p className="text-gray-600 text-lg leading-relaxed">TEL: 0952-20-8313<br />FAX: 0952-20-8315</p>
               </div>
             </div>
           </div>

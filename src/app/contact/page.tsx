@@ -47,11 +47,7 @@ export default function ContactPage() {
                     〒840-2213<br />
                     佐賀県佐賀市川副町鹿江670-8
                   </p>
-                  <p className="text-gray-600 text-lg leading-relaxed">
-                    <span className="font-semibold text-gray-800">受付時間</span><br />
-                    平日 9:00 - 18:00<br />
-                    土日祝日 10:00 - 17:00
-                  </p>
+                
                 </div>
               </div>
 
@@ -74,10 +70,7 @@ export default function ContactPage() {
                     <span className="font-semibold text-gray-800">FAX</span><br />
                     FAX: 0952-20-8315
                   </p>
-                  <p className="text-gray-600 text-lg leading-relaxed">
-                    <span className="font-semibold text-gray-800">メール</span><br />
-                    Email: info@nakao-kazuyuki.jp
-                  </p>
+                 
                 </div>
               </div>
             </div>
@@ -96,100 +89,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* メールフォーム */}
-            <div className="mt-16">
-              <div className="bg-white p-8 rounded-2xl shadow-xl border border-gray-200">
-                <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center">
-                  お問い合わせフォーム
-                </h3>
-                <form className="space-y-6">
-                  <div className="grid md:grid-cols-2 gap-6">
-                    <div>
-                      <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                        お名前 <span className="text-red-500">*</span>
-                      </label>
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        required
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition-colors"
-                        placeholder="山田 太郎"
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                        メールアドレス <span className="text-red-500">*</span>
-                      </label>
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        required
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition-colors"
-                        placeholder="example@email.com"
-                      />
-                    </div>
-                  </div>
-                  
-                  <div>
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                      電話番号
-                    </label>
-                    <input
-                      type="tel"
-                      id="phone"
-                      name="phone"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition-colors"
-                      placeholder="0952-20-8313"
-                    />
-                  </div>
-                  
-                  <div>
-                    <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
-                      件名 <span className="text-red-500">*</span>
-                    </label>
-                    <select
-                      id="subject"
-                      name="subject"
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition-colors"
-                    >
-                      <option value="">件名を選択してください</option>
-                      <option value="policy">政策について</option>
-                      <option value="support">応援・支援について</option>
-                      <option value="question">ご質問</option>
-                      <option value="suggestion">ご提案・ご意見</option>
-                      <option value="other">その他</option>
-                    </select>
-                  </div>
-                  
-                  <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                      メッセージ <span className="text-red-500">*</span>
-                    </label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      required
-                      rows={6}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition-colors resize-vertical"
-                      placeholder="お気軽にご意見・ご質問をお聞かせください。"
-                    ></textarea>
-                  </div>
-                  
-                  <div className="text-center">
-                    <button
-                      type="submit"
-                      className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-4 px-8 rounded-lg transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-                    >
-                      送信する
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
-
+           
            
           </div>
         </section>

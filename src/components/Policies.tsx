@@ -25,7 +25,7 @@ const POLICIES: Policy[] = [
       "物価高騰対策",
     ],
     svgPath: "/images/25996.svg",
-    imagePath: "/images/industry-photo.jpeg",
+    imagePath: "/images/386778439.jpeg",
   },
   {
     key: "kids",
@@ -38,7 +38,7 @@ const POLICIES: Policy[] = [
       "子育て相談員の拡充",
     ],
     svgPath: "/images/0123.svg",
-    imagePath: "/images/family-photo.jpg",
+    imagePath: "/images/2218514183.jpg",
   },
   {
     key: "medical",
@@ -51,7 +51,7 @@ const POLICIES: Policy[] = [
       "一人暮らし高齢者様のサポート",
     ],
     svgPath: "/images/24386.svg",
-    imagePath: "/images/medical-photo.jpg",
+    imagePath: "/images/1140723256.jpg",
   },
   {
     key: "city",
@@ -64,7 +64,7 @@ const POLICIES: Policy[] = [
       "子供が元気に楽しく思える環境づくり",
     ],
     svgPath: "/images/18210.svg",
-    imagePath: "/images/community-photo.jpg",
+    imagePath: "/images/1371306648.jpg",
   },
   {
     key: "human",
@@ -77,7 +77,7 @@ const POLICIES: Policy[] = [
       "交通安全対策",
     ],
     svgPath: "/images/23390.svg",
-    imagePath: "/images/safety-photo.jpg",
+    imagePath: "/images/2218547916.jpg",
   },
 ];
 
