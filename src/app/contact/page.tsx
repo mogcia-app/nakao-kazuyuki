@@ -39,7 +39,7 @@ export default function ContactPage() {
                       <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/>
                     </svg>
                   </div>
-                  <h2 className="text-3xl font-bold text-gray-800">選挙事務所</h2>
+                  <h2 className="text-3xl font-bold text-gray-800">後援会事務所</h2>
                 </div>
                 <div className="space-y-4">
                   <p className="text-gray-600 text-lg leading-relaxed">
