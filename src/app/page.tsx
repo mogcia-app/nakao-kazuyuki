@@ -31,11 +31,7 @@ export default function Home() {
   {/* コンテンツ */}
   <div className="relative mx-auto max-w-7xl px-6 py-16 md:py-24 w-full">
     <div className="max-w-2xl">
-      {/* サブキャップ */}
-      <div className="inline-flex items-center gap-2 rounded-full border-2 border-yellow-400 bg-white/90 px-3 py-1.5 text-xs font-bold text-yellow-800 shadow-sm backdrop-blur md:gap-3 md:px-4 md:py-2 md:text-sm">
-        <span className="inline-block h-4 w-4 rounded-full bg-yellow-400 shadow-md md:h-5 md:w-5" />
-        想いを形に　〜市民と共に〜
-      </div>
+     
 
       {/* 氏名 */}
       <h1 className="mt-6 text-4xl font-black leading-[1.05] tracking-tight text-black md:text-7xl lg:text-8xl">
@@ -43,10 +39,9 @@ export default function Home() {
       </h1>
       <p className="mt-2 text-xl font-medium text-black md:text-3xl">NAKAO　KAZUYUKI</p>
 
-      {/* キャッチコピー（和／幸だけ赤） */}
-      <p className="mt-6 max-w-2xl text-lg sm:text-xl md:text-[36px] leading-relaxed text-black">
-        まちに <span className="text-red-600 font-bold text-xl md:text-[48px]">和</span> を
-        人に <span className="text-red-600 font-bold text-xl md:text-[48px]">幸</span> を
+      {/* キャッチコピー */}
+      <p className="mt-6 max-w-2xl text-lg sm:text-xl md:text-[36px] leading-relaxed font-bold" style={{fontWeight: 'bold', color: '#dc2626'}}>
+       想いをかたちに　〜市民と共に〜
       </p>
 
       {/* CTA */}
@@ -71,7 +66,7 @@ export default function Home() {
     <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
       <p>
        佐賀市に生まれ育ち50年が経ちました。<br />
-       山間にある職場（養鶏農場）から見える佐賀平野の田んぼや穏やかな波が広がる有明海を見ながら数年前に開催させた研修会での講師の先生の言葉が脳裏から離れず考えさせられていました。<br />
+       山間にある職場（養鶏農場）から見える佐賀平野の田んぼや穏やかな波が広がる有明海を見ながら某野球部の監督さんの言葉が脳裏から離れず考えさせられていました。<br />
        「日本人が初めて教わるのはあいうえおだから<br />
        あいうえおの精神を忘れてはいけない」
       </p>
@@ -84,12 +79,10 @@ export default function Home() {
 </p>
       <p>
        この精神を受け止めるとともに特に恩に関しては、佐賀県の平均寿命は、男性81.41歳、女性87.60歳（2020年）となっております。<br />
-       佐賀市に恩返しができるのも残り30年余りこの残された時間を市民一人ひとりが安心して子供たちと高齢者に優しく暮らせる地域社会の実現を目指し努力して参ります。<br />
+       佐賀市に恩返しができるのも残り30年あまり。この残された時間を市民一人ひとりが安心して子どもたちと高齢者にやさしく暮らせる地域社会の実現を目指し努力して参ります。<br />
        どうか皆様のお力添えをよろしくお願いいたします。
       </p>
-      <p className="font-semibold text-gray-900">
-        すべては「まちに<strong className='text-red-600'>和</strong>を、人に<strong className='text-red-600'>幸</strong>を」──この想いを胸に。
-      </p>
+     
     </div>
   </div>
 </section>

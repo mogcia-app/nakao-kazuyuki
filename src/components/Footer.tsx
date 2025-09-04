@@ -16,8 +16,8 @@ export default function Footer() {
                   <p className="text-gray-300">なかお　かずゆき</p>
                 </div>
               </div>
-              <p className=" text-white">
-        すべては「まちに<strong className='text-red-600 font-semibold'>和</strong>を、人に<strong className='text-red-600 font-semibold'>幸</strong>を」──
+              <p className="mt-6 text-base md:text-lg leading-relaxed font-bold" style={{fontWeight: 'bold', color: '#dc2626'}}>
+        想いをかたちに　〜市民と共に〜
       </p>
              
             </div>
