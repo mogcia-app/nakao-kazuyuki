@@ -11,6 +11,11 @@ export const metadata: Metadata = {
   authors: [{ name: '中尾 和幸' }],
   creator: '中尾 和幸',
   publisher: '中尾 和幸',
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
+  },
   formatDetection: {
     email: false,
     address: false,
@@ -47,6 +52,10 @@ export const metadata: Metadata = {
   verification: {
     google: 'FDnUyBZh9krXqYOIBKlsq-ZxnMKK6BM69KORfs56NDg',
   },
+  applicationName: '中尾和幸 公式サイト',
+  category: '政治・社会',
+  classification: '政治家公式サイト',
+  referrer: 'origin-when-cross-origin',
 }
 
 export default function RootLayout({
